@@ -1,0 +1,36 @@
+.item{
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.row{
+    justify-content: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.content_body {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.show {
+    display: flex;
+    padding: 2px;
+}
+
+.show span{
+    border: solid 1px black;
+    background-color: beige;
+    border-radius: 3px;
+    padding: 2px;
+}
+
+.result{
+    padding: 2px;
+}
